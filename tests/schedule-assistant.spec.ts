@@ -14,17 +14,17 @@ test('complete flow test', async ({ page }) => {
   
   // Handle file upload
   const fileInput = await page.locator('input[type="file"]');
-  await fileInput.setInputFiles(path.join('/Users/shishirsmac/Personal/Personal Projects/Test Project/ClassClock-Test-Project/sample-data/schedule.ics'));
+  await fileInput.setInputFiles(path.join('../ClassClock-Test-Project/sample-data/schedule.ics'));
   
   // Wait for the upload to complete
   await page.waitForSelector('text=Timetable Loaded');
   
   // Test questions array
   const questions = [
-    'What classes do I have today?',
-    'When is my next class?',
-    'What is my schedule for tomorrow?',
-    'What is my schedule for Thursday?'
+    'Do I have any classes on Monday?',
+    'What is the schedule for Machine Learning class?',
+    'What is my schedule for Today?',
+    'Where does the Advanced Mathematical Stats class take place??'
   ];
   
   // Ask each question and wait for response
@@ -39,6 +39,6 @@ test('complete flow test', async ({ page }) => {
     await page.waitForSelector('.bg-gray-50');
     
     // Optional: Add delay to make recording more viewable
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(4500);
   }
 });
