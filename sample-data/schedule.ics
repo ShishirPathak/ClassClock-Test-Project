@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//University of Massachusetts//Student Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fnu - 2025 Sprng UMDAR Classes (as of 01-23-25)
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20250121T153000
+DURATION:PT2H30M
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20250430
+LOCATION:Liberal Arts 218              
+STATUS:CONFIRMED
+SUMMARY:MTH 522-01 Lecture (#11350)     
+DESCRIPTION:Class Title: Advanced Mathematical Stats\n                          
+ Instructor: Gary E Davis                                                                 
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250121T140000
+DURATION:PT1H15M
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20250430
+LOCATION:Library Lecture Hall 206      
+STATUS:CONFIRMED
+SUMMARY:CIS 490-01 Lecture (#11747)     
+DESCRIPTION:Class Title: Machine Learning\n                                     
+ Instructor: Ashokkumar Ratilal Patel                                                     
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250123T153000
+DURATION:PT2H20M
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20250430
+LOCATION:CCB-247                       
+STATUS:CONFIRMED
+SUMMARY:DSC 520-01 Lecture (#12152)     
+DESCRIPTION:Class Title: High Perform Scientific Comput\n                       
+ Instructor: Scott E Field                                                                
+END:VEVENT
+END:VCALENDAR
